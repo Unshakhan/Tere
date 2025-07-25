@@ -1,0 +1,161 @@
+.nav-link{
+color: #000;
+margin-top: 10px;
+}
+.home-button{
+   background-color: #75BF7A;
+   color: aliceblue;
+   border-radius: 10px;
+}
+.button-color{
+    color: #fff;
+    width:182px;
+height: 20px;
+padding-left: 50px;
+margin-top: 6px;
+}
+.terelogo{
+    width: 180px;
+Height: 51px;
+}
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+   
+  }
+  .poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  .down{
+    font-weight: 400;
+    font-size: 15px;
+    background-color: #000;
+    border: 1px black;
+    width: 149px;
+  }
+ 
+  .down:hover{
+    background-color: #353333;
+  }
+  .buttons-div{
+    margin-top: 20px;
+  }
+  /* .carimage{
+    Width:
+453px;
+height:
+582.81px
+  } */
+  .button-img{
+margin: 1px;
+  }
+  .form-div{
+    background-color:#75BF7A ;
+    Width:1,280px;
+Height:166px;
+Top:897px;
+Left:80px;
+border-radius:10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+  }
+  .form-para{
+    color: #fff;
+    Width: 246px;
+    Height: 56px;
+  }
+  .input543{
+    /* width: 500px; */
+    height: 50px;
+  }
+  .input{
+    height: 50px;
+    background-color: #353333;
+    color: #fff;
+  }
+  .help{
+    width: 200px;
+    background-color: #75BF7A;
+    color: #fff;
+  }
+  .help:hover{
+     background-color: #75BF7A;
+    color: #fff;
+  }
+ @media only screen and (max-width: 600px) {
+.first-cont{
+  display: flex;
+  justify-content: center;
+}
+
+ }
+ .apply-btn{
+  border-radius: 5px;
+ }
+ .tere{
+  color: #75BF7A;
+  font-weight: bold;
+ }
+.unsha{
+  background-color: #75BF7A;
+  width: 100px;
+  height: 100px;
+}
+.one{
+  color: #75BF7A;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.group94{
+  position: relative;
+}
+.ride{
+  font-weight: bold;
+}
+.circle{
+  background-color: #75BF7A;
+  width: 400px;
+  height: 400px;
+  border-radius: 200px;
+}
+.two{
+   color: #75BF7A;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 22px;
+}
+.logo-of{
+  display: none;
+}
+.no{
+  background-color: #F9F9F9;
+}
+@media only screen and (max-width: 1200px) {
+/* .circle-left-div{
+  display: none;
+} */
+.circle{
+    background-color: #75BF7A;
+  width: 350px;
+  height: 350px;
+  border-radius: 250px;
+}
+.logo-of{
+ display: inline-block;
+ position: absolute;
+left: 60px;
+top: -40px;
+
+}
+ .circle{
+  position: relative;
+ }
+}
