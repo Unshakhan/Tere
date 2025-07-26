@@ -79,12 +79,12 @@ align-items: center;
     color: #fff;
   }
   .help{
-    width: 200px;
+    width: 130px;
     background-color: #75BF7A;
     color: #fff;
   }
   .help:hover{
-     background-color: #75BF7A;
+     background-color: #177a1f;
     color: #fff;
   }
  @media only screen and (max-width: 600px) {
@@ -202,7 +202,10 @@ top: -40px;
             .earnings-text-block {
                 padding-left: 30px;
             }
-             
+           .numberfourth{
+            background-image: none; /* This hides the background image on small screens */
+    background-color: #f5f5f5; /* Optional: fallback background color */
+          }   
         }
 
         @media (max-width: 767.98px) {
@@ -213,31 +216,35 @@ top: -40px;
             .mobile{
               display: none;
             }
+          .numberfourth{
+            background:none ; /* This hides the background image on small screens */
+          }
            
-         .footer{
-          position: absolute;
-          top: 5500px;
+         
         }
-        }
-        .forth-containr{
-          position: relative;
-        }
+        
         .mobile{
           position: absolute;
           left: 150px;
         }
-        .support-div{
-          position: absolute;
-          /* bottom: -370px; */
-        }
+        
         .Customer{
 line-height: 1em;
 margin-bottom: 5px;
         }
-        .footer{
-          position: absolute;
-          bottom: -2800px;
-        }
+    
         .para{
           color: #3c9742;
+        }
+        li{
+          list-style-type: none;
+        }
+        .numberfourth{
+          background-image: url(assets/Group\ 3693.png);
+          background-position: contain;
+         background-position: 100px 0px ;
+          background-repeat: no-repeat;
+          padding-top: 40px;
+          height: 500px;
+          background-color: transparent;
         }
