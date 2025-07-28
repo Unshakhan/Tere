@@ -39,16 +39,12 @@ Height: 51px;
  
   .down:hover{
     background-color: #353333;
+    transform: scale(1.1);
   }
   .buttons-div{
     margin-top: 20px;
   }
-  /* .carimage{
-    Width:
-453px;
-height:
-582.81px
-  } */
+ 
   .button-img{
 margin: 1px;
   }
@@ -66,12 +62,14 @@ align-items: center;
   }
   .form-para{
     color: #fff;
-    Width: 246px;
+    Width: 260px;
     Height: 56px;
   }
   .input543{
     /* width: 500px; */
     height: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
   }
   .input{
     height: 50px;
@@ -169,7 +167,10 @@ top: -40px;
             /* padding: 30px; */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
-
+.earnings-section:hover{
+  transform: scale(1.1);
+  transition: 2s;
+}
         .earnings-number {
             font-size: 50px;
             font-weight: bold;
@@ -206,6 +207,7 @@ top: -40px;
             background-image: none; /* This hides the background image on small screens */
     background-color: #f5f5f5; /* Optional: fallback background color */
           }   
+          
         }
 
         @media (max-width: 767.98px) {
@@ -217,7 +219,8 @@ top: -40px;
               display: none;
             }
           .numberfourth{
-            background:none ; /* This hides the background image on small screens */
+            /* background-image:none ;  */
+            background-size: 0px;
           }
            
          
@@ -248,3 +251,12 @@ margin-bottom: 5px;
           height: 500px;
           background-color: transparent;
         }
+       .nav-link{
+        font-size: 18px;
+        font-weight: 600;
+        color: #777;
+       }
+ .help{
+ 
+        font-weight: 600;
+}
